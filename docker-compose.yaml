@@ -7,6 +7,7 @@ services:
       POSTGRES_PASSWORD: theseus
   web:
     build: .
+    command: python code/manage.py migrate
     command: python code/manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code

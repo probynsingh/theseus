@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
+    'graphene_django',
+    'theseus.organizations',
 ]
 
 MIDDLEWARE = [
@@ -69,6 +72,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'theseus.wsgi.application'
 
+# Graphene
+
+GRAPHENE = {
+    'SCHEMA': 'theseus.schema.schema'
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases

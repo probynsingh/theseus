@@ -1,2 +1,5 @@
 Django
 psycopg2
+graphene_django
+django-graphiql
+django-filter
