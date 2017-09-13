@@ -10,7 +10,7 @@ from theseus.organizations.models import Company
 class CompanyNode(DjangoObjectType):
     class Meta:
         model = Company
-        filter_fields = ['name', 'created_at', 'updated_at']
+        filter_fields = ['name', 'created_at', 'updated_at', 'created_by_user']
         interfaces = (relay.Node, )
 
 

@@ -4,7 +4,8 @@
   "fields": {
     "name": "Wizard World",
     "created_at": "2017-09-10 15:51:27.664660+00:00",
-    "updated_at": "2017-09-10 15:51:27.664660+00:00"
+    "updated_at": "2017-09-10 15:51:27.664660+00:00",
+    "created_by_user": 1
   }
 }, {
   "model": "organizations.company",
@@ -12,7 +13,8 @@
   "fields": {
     "name": "Bob's Builders",
     "created_at": "2017-09-10 15:51:27.664660+00:00",
-    "updated_at": "2017-09-10 15:51:27.664660+00:00"
+    "updated_at": "2017-09-10 15:51:27.664660+00:00",
+    "created_by_user": 1
   }
 }, {
   "model": "organizations.company",
@@ -20,7 +22,8 @@
   "fields": {
     "name": "Amazon",
     "created_at": "2017-09-10 15:51:27.664660+00:00",
-    "updated_at": "2017-09-10 15:51:27.664660+00:00"
+    "updated_at": "2017-09-10 15:51:27.664660+00:00",
+    "created_by_user": 1
   }
 }, {
   "model": "organizations.company",
@@ -28,7 +31,8 @@
   "fields": {
     "name": "Microsoft",
     "created_at": "2017-09-10 15:51:27.664660+00:00",
-    "updated_at": "2017-09-10 15:51:27.664660+00:00"
+    "updated_at": "2017-09-10 15:51:27.664660+00:00",
+    "created_by_user": 1
   }
 }, {
   "model": "organizations.company",
@@ -36,7 +40,8 @@
   "fields": {
     "name": "Facebook",
     "created_at": "2017-09-10 15:51:27.664660+00:00",
-    "updated_at": "2017-09-10 15:51:27.664660+00:00"
+    "updated_at": "2017-09-10 15:51:27.664660+00:00",
+    "created_by_user": 1
   }
 }, {
   "model": "organizations.company",
@@ -44,6 +49,7 @@
   "fields": {
     "name": "LinkedIn",
     "created_at": "2017-09-10 15:51:27.664660+00:00",
-    "updated_at": "2017-09-10 15:51:27.664660+00:00"
+    "updated_at": "2017-09-10 15:51:27.664660+00:00",
+    "created_by_user": 1
   }
 }]
