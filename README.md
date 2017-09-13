@@ -2,6 +2,14 @@
 
 https://theseus-slack.now.sh/
 
+## Feature Requests
+
+We're currently accepting feature requests to help shape the future of the project. [Check us out on Canny!](https://theseus.canny.io/feature-requests)
+
+## About Theseus
+
+Theseus is a modern and FOSS alternative to ConnectWise. [Check out the Reddit post that start it all](https://www.reddit.com/r/msp/comments/6wozns/open_source_competitor_to_connectwise/). We're currently focusing on ticketing and CRM. For technical details you can read the wiki on this repository and [join the conversation in Slack](https://theseus-slack.now.sh/).
+
 ## Developers
 
 **Setting up the development environment**
