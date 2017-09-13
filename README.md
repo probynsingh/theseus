@@ -1,15 +1,8 @@
-**Requirements**
+## Join us on Slack!
 
-* docker-compose
-* docker
+https://theseus-slack.now.sh/
 
-**Initial Setup**
-
-* `docker-compose build`
-* `docker-compose up -d`
-* Navigate to localhost:8000
-
-# Developers
+## Developers
 
 **Setting up the development environment**
 
