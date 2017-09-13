@@ -9,6 +9,34 @@
 * `docker-compose up -d`
 * Navigate to localhost:8000
 
-**Start a new project**
+# Developers
 
-`docker-compose run web django-admin.py startproject <project_name> code`
+**Setting up the development environment**
+
+`docker-compose up`
+
+Sometimes the docker-compose service for web doesn't sync up with the database. It's a known issue. Simply run `docker-compose down` and then `docker-compose up` until it goes down, then you can add `-d` for daemon mode.
+
+`docker-compose run web code/manage.py createsuperuser`
+
+This is your administrative user.
+
+`docker-compose run web code/manage.py makemigrations`
+
+This gets your migrations files caught up.
+
+`docker-compose run web code/manage.py migrate`
+
+This builds the tables.
+
+`docker-compose run web code/manage.py loaddata organizations`
+
+This loads the test data into the database.
+
+Your development environment is now ready for dev!
+
+**Adding an app**
+
+1. Use the Django CLI to start the app inside the `theseus` directory.
+
+2. Add your app to `settings.py` on **below** line 42
